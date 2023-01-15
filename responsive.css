@@ -1,0 +1,145 @@
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: 93%;
+    }
+    .header-main-blk {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-logo a{
+        font-size: 30px;
+    }
+    .header-logo{
+        margin-bottom: 20px;
+    }
+    .header-menu ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    .header-menu ul li{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 30px;
+        margin-bottom: 14px;
+
+    }
+    .banner-content p{
+        font-size: 14px;
+    }
+    .common-btn{
+        width: 140px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .banner-area{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .feature-main-blk{
+        gap: 30px;
+        flex-direction: column;
+    }
+    .feature-img-blk{
+        gap: 10px;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-content{
+        width: 100%;
+        text-align: center;
+    }
+    .feature-content h2{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .feature-content p{
+        font-size: 14px;
+    }
+    .feature-content a{
+        margin-left: auto;
+    }
+    .service-main-blk {
+        display: flex;
+        gap: 46px;
+        flex-direction: column;
+    }
+    .service-main-content {
+        width: 100%;
+    }
+    .service-img-blk {
+        width: 100%;
+        position: relative;
+    }
+    .service-experience h4 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .service-experience p {
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .service-experience {
+        position: absolute;
+        left: 0;
+        bottom: -50px;
+        background-color: #FF900E;
+        padding: 46px 42px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    .fact-topbar {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .fact-main-blk {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fact-area {
+        padding-bottom: 30px;
+    }
+    .sponsor-topbar {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .sponsor-area {
+        padding: 30px;
+    }
+    .sponsor-main-blk {
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+}
